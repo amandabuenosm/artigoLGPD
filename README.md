@@ -1,0 +1,6 @@
+Este projeto consiste na apresentação de uma página web responsiva, desenvolvida para dispositivos desktop e móveis, com o objetivo de apresentar um artigo acadêmico elaborado na disciplina de Evolução da Tecnologia, onde durante a disciplina, foi proposto pelo professor que os alunos escolhessem um tema, realizassem pesquisas e desenvolvessem um artigo acadêmico, podendo utilizar qualquer fonte de conteúdo. O foco do exercício era a prática na estruturação de artigos, incluindo pesquisa, organização de ideias e redação — servindo como preparação para a elaboração de trabalhos de conclusão de curso e outras produções acadêmicas.
+
+O tema escolhido foi a Lei Geral de Proteção de Dados (LGPD), abordando suas implicações e desafios na rotina dos profissionais de Tecnologia da Informação. A partir de situações reais, o artigo discute a importância da LGPD no contexto atual, os impactos da legislação sobre sistemas e profissionais de TI e os desafios de adequação enfrentados por empresas e profissionais.
+
+Atualmente, o projeto encontra-se em fase de desenvolvimento, com o objetivo de oferecer uma interface amigável para disponibilizar o conteúdo do artigo, originalmente produzido na faculdade, em uma versão online acessível via navegador.
+
