@@ -1,1 +1,63 @@
-/* em testes */
+body {
+    background-color: #02203d; 
+    margin: 0;
+    padding: 0;
+}
+
+.containerpage {
+    margin-block: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    background-color: #7695de;
+    padding: 20px 0;
+    text-align: center;
+}
+
+article {
+    background-color: #3376c8;
+    max-width: 70%;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.sessao2-1, .sessao2-2, .sessao2-3 {
+    padding: 10px;
+} 
+
+.sessao2-3-1, .sessao2-3-2, .sessao2-3-3, .sessao2-3-4, .sessao2-3-5, .sessao2-3-6 {
+    padding: 5px 15px;
+} 
+
+.sessao-meto img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+
+p {
+    text-align: justify;
+}
+
+footer {
+    width: 100%;
+    background-color: #000043;
+    padding: 2px 0;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
