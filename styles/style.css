@@ -4,8 +4,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .containerpage {
