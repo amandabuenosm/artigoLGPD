@@ -1,5 +1,6 @@
 body {
-    background-color: #02203d; 
+    background-image: url(../img/wallpaper.jpg);
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
@@ -14,13 +15,19 @@ body {
 
 header {
     width: 100%;
-    background-color: #7695de;
+    background-color: #013440;
     padding: 20px 0;
     text-align: center;
 }
 
+header h1 {
+    color: white;
+    font-family: 'Aldrich';
+
+}
+
 article {
-    background-color: #3376c8;
+    background-color: #4b3247d7;
     max-width: 70%;
     margin: 20px;
     padding: 10px 20px;
@@ -38,26 +45,48 @@ article {
 .sessao-meto img {
     display: block;
     margin: 20px auto;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }
 
 h3 {
-    font-size: 1.5rem;
+    font-size: 1.5rem;    
+    color: white;
+    font-family: 'Aldrich';
 }
-
 
 p {
     text-align: justify;
 }
 
+p, li, a {
+    color: white;
+    font-family: 'Unna';
+    font-size: large;
+}
+
 footer {
     width: 100%;
-    background-color: #000043;
+    background-color: #013440;
     padding: 2px 0;
 }
 
 footer p {
     text-align: center;
     color: white;
+}
+
+/* Media Queries */
+@media (max-width: 1000px) {
+  body {
+    background-size: 1000px;
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerpage {
+    padding: 8% 0;
+    height: auto;
+  }
 }
