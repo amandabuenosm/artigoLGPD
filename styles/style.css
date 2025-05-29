@@ -4,7 +4,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -89,9 +88,6 @@ footer p {
 
 /* media queries */
 @media (max-width: 1024px) {
-    body {
-        background-attachment: scroll;
-    }
     article {
         max-width: 85%;
         padding: 15px;
