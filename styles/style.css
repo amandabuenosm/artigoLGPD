@@ -96,6 +96,7 @@ footer p {
     body {
         background-attachment: scroll;
         background-position: center center;
+        min-height: 100vh;
     }
 
     article {
