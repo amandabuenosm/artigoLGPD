@@ -49,6 +49,13 @@ article {
     height: auto;
 }
 
+.sessao-referencias li a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+
 h3 {
     font-size: 1.5rem;    
     color: white;
@@ -76,7 +83,7 @@ footer p {
     color: white;
 }
 
-/* media querys */
+/* media queries */
 @media (max-width: 1024px) {
     article {
         max-width: 85%;
@@ -88,42 +95,13 @@ footer p {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     header h1 {
-        font-size: 1.8rem;
-        padding: 0 10px;
-    }
-
-    h3 {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
     }
 
     p, li, a {
-        font-size: medium;
-    }
-
-    article {
-        max-width: 90%;
-        margin: 15px;
-        padding: 15px;
-    }
-
-    .sessao-meto img {
-        max-width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    h3 {
-        font-size: 1.1rem;
-    }
-
-    p, li, a {
-        font-size: small;
+        font-size: 1rem;
     }
 
     article {
@@ -133,10 +111,6 @@ footer p {
     }
 
     .sessao-meto img {
-        max-width: 80%;
-    }
-
-    .containerpage {
-        margin-block: 10px;
+        max-width: 85%;
     }
 }
