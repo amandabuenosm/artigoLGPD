@@ -76,17 +76,67 @@ footer p {
     color: white;
 }
 
-/* Media Queries */
-@media (max-width: 1000px) {
-  body {
-    background-size: 1000px;
-    background-attachment: fixed;
-  }
+/* media querys */
+@media (max-width: 1024px) {
+    article {
+        max-width: 85%;
+        padding: 15px;
+    }
+
+    .sessao-meto img {
+        max-width: 70%;
+    }
 }
 
-@media (max-width: 600px) {
-  .containerpage {
-    padding: 8% 0;
-    height: auto;
-  }
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+        padding: 0 10px;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    p, li, a {
+        font-size: medium;
+    }
+
+    article {
+        max-width: 90%;
+        margin: 15px;
+        padding: 15px;
+    }
+
+    .sessao-meto img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+
+    p, li, a {
+        font-size: small;
+    }
+
+    article {
+        max-width: 95%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .sessao-meto img {
+        max-width: 90%;
+    }
+
+    .containerpage {
+        margin-block: 10px;
+    }
 }
